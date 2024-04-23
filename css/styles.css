@@ -1,0 +1,86 @@
+body
+{
+    background-color: #EFD9D1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style-type: none;
+    display: inline;
+    color: #fff
+}
+li>a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 1vh;
+}
+.section
+{
+    max-width: 67vw;
+    padding: 2vh;
+    margin: 2vh auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.header
+{
+    background-color:#000;
+    color: #fff;
+    padding: 1vh;
+    text-align: center;
+}
+.title
+{
+    font-family: 'Codystar',sans-serif;
+    font-size: 6em;
+    text-align: center;
+    
+}
+.neon
+{
+    text-transform: uppercase;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+@keyframes neonGlow {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, .8),
+            0 0 20px rgba(255, 255, 255, .8),
+            0 0 22px rgba(255, 255, 255, .8),
+            0 0 40px rgba(66, 220, 219, .8),
+            0 0 60px rgba(66, 220, 219, .8),
+            0 0 80px rgba(66, 220, 219, .5),
+            0 0 100px rgba(66, 220, 219, .5),
+            0 0 140px rgba(66, 220, 105, 0.5),
+            0 0 200px rgba(66, 220, 105, 0.5);
+    }
+
+    100% {
+        text-shadow: 0 0 2px rgba(255, 255, 255, .8),
+            0 0 8px rgba(255, 255, 255, .8),
+            0 0 10px rgba(255, 255, 255, .8),
+            0 0 20px rgba(66, 220, 219, .8),
+            0 0 30px rgba(66, 220, 219, .8),
+            0 0 40px rgba(66, 220, 219, .8),
+            0 0 50px rgba(66, 220, 219, .5),
+            0 0 80px rgba(66, 220, 219, .5);
+    }
+}
+
+/* fonts */
+.codystar-light {
+    font-family: "Codystar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
