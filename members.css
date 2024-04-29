@@ -415,7 +415,7 @@ body.prevent-background-scroll {
     font-size: 1.5rem;
 }
 
-.song-item {
+.icon-item {
     display: grid;
     grid-template-columns: 35% 55% 10%;
     align-items: center;
@@ -423,8 +423,9 @@ body.prevent-background-scroll {
     /* background-color: #4ddc9e; */
 }
 
-.song-item img {
+.icon-item img {
     width: 100px;
+    height: 100px;
     aspect-ratio: 3/2;
     border-radius: 10px;
     object-fit: cover;
@@ -436,7 +437,7 @@ body.prevent-background-scroll {
 }
 
 .song-title p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -591,7 +592,7 @@ body.prevent-background-scroll {
         width: 100%;
     }
 
-    .song-item {
+    .icon-item {
         grid-template-columns: 40% 50% 10%;
     }
 }
