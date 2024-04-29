@@ -417,7 +417,7 @@ body.prevent-background-scroll {
 
 .icon-item {
     display: grid;
-    grid-template-columns: 35% 55% 10%;
+    grid-template-columns: 30% 65% 5%;
     align-items: center;
     margin-bottom: 20px;
     /* background-color: #4ddc9e; */
@@ -431,12 +431,12 @@ body.prevent-background-scroll {
     object-fit: cover;
 }
 
-.song-title {
+.social-title {
     display: flex;
     flex-direction: column;
 }
 
-.song-title p {
+.social-title p {
     font-size: 1.2rem;
     font-weight: 300;
 }
