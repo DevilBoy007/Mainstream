@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Kalam:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap");
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Nunito", sans-serif;
+}
+
+html,
+body {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #040a22;
 }
 
 img {
@@ -16,13 +23,20 @@ img {
 ul {
     list-style-type: none;
 }
+li {
+    list-style-type: none;
+    display: inline;
+    color: #fff
+}
 
-html,
-body {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-color: #040a22;
+li>a, .logo>a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1vh;
+}
+
+a{
+    text-decoration: none;
 }
 
 section {
@@ -66,13 +80,11 @@ section {
     color: #fff;
     transition-delay: 3s;
 }
-
 .logo {
     font-size: 6em;
     text-align: center;
-    font-family: "Codystar", sans-serif;
+    font-family: 'Codystar', sans-serif, !important;
 }
-
 /* -------------------- */
 /* BACKGROUND ANIMATION */
 
@@ -155,6 +167,13 @@ section {
             #2b60bc 100%);
     background-size: 200% 100%;
     animation: line-animation 13s infinite linear;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 1vh;
+    text-align: center;
 }
 
 @keyframes line-animation {
@@ -602,4 +621,17 @@ body.prevent-background-scroll {
     .icon-item {
         grid-template-columns: 40% 50% 10%;
     }
+}
+
+/* fonts */
+.codystar-light {
+    font-family: "Codystar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
