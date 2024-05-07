@@ -84,8 +84,7 @@ section {
 }
 .logo {
     font-size: 6em;
-    text-align: center;
-    font-family: 'Codystar', sans-serif, !important;
+    text-align: center;font-family: 'Codystar', sans-serif;
 }
 /* -------------------- */
 /* BACKGROUND ANIMATION */
