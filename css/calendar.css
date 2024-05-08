@@ -140,7 +140,19 @@ header .calendar-current-date {
 }
 /* end calendar */
 
-
+.events-list
+{
+    background: #fff;
+    border-radius: 10px;
+    padding: 2vw;
+    margin: 2vw;
+}
+.events-list ul li
+{
+    list-style: square;
+    padding: 1vw;
+    border-bottom: 1px solid #000;
+}
 
 /* header */
 .header {

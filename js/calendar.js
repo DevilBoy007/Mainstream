@@ -1,8 +1,8 @@
 // list of dictionaries that describe events on the calendar
 const events = [
-    {"date": "2024-5-3", "title": "Event 1", "description": "Description of event 1"},
-    {"date": "2024-5-10", "title": "Event 2", "description": "Description of event 2"},
-    {"date": "2024-5-13", "title": "Event 3", "description": "Description of event 3"}
+    {"date": "2024-5-3", "title": "The Garage", "description": "Mainstream is coming to rock the Garage!"},
+    {"date": "2024-5-10", "title": "Whiskey Row", "description": "Mainstream is coming to bring a slow, jazzy vibe to Whiskey Row!"},
+    {"date": "2024-5-13", "title": "The Tap", "description": "Get elevated with Mainstream at the Tap!"},
 ]
 
 
