@@ -8,6 +8,8 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+
 .content-wrapper {
     display: flex;
     background: orchid;
@@ -17,12 +19,14 @@ body {
     justify-content: center;
 }
 
+/* calendar */
 .calendar-container {
     background: #fff;
     width: 66vw;
-    height: 66vh;
+    height: 50vh;
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    flex-shrink: 2;
 }
 
 .calendar-container header {
@@ -134,7 +138,11 @@ header .calendar-current-date {
 .calendar-dates li.event:hover::before {
     background: #000;
 }
+/* end calendar */
 
+
+
+/* header */
 .header {
     background-color: #000;
     color: #fff;
@@ -163,9 +171,12 @@ header .calendar-current-date {
     font-weight: 300;
     font-style: normal;
 }
+/* end calendar */
 
+/* fonts */
 .codystar-regular {
     font-family: "Codystar", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+/* end fonts */
