@@ -92,6 +92,10 @@ header .calendar-current-date {
     margin-top: 30px;
     position: relative;
     z-index: 1;
+}
+
+.calendar-body .calendar-dates li.event
+{
     cursor: pointer;
 }
 
@@ -100,6 +104,10 @@ header .calendar-current-date {
 }
 
 .calendar-dates li.active {
+    color: #fff;
+}
+
+.calendar-dates li.event {
     color: #fff;
 }
 
@@ -119,8 +127,12 @@ header .calendar-current-date {
     background: #6332c5;
 }
 
-.calendar-dates li:not(.active):hover::before {
-    background: #e4e1e1;
+.calendar-dates li.event::before {
+    background: #00bfff;
+}
+
+.calendar-dates li.event:hover::before {
+    background: #000;
 }
 
 .header {

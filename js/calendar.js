@@ -1,3 +1,11 @@
+// list of dictionaries that describe events on the calendar
+const events = [
+    {"date": "2024-5-3", "title": "Event 1", "description": "Description of event 1"},
+    {"date": "2024-5-10", "title": "Event 2", "description": "Description of event 2"},
+    {"date": "2024-5-13", "title": "Event 3", "description": "Description of event 3"}
+]
+
+
 let date = new Date();
 let year = date.getFullYear();
 let month = date.getMonth();
@@ -38,12 +46,17 @@ const manipulate = () => {
 
     for (let i = 1; i <= lastdate; i++) {
 
-        let isToday = i === date.getDate()
-            && month === new Date().getMonth()
-            && year === new Date().getFullYear()
-            ? "active"
-            : "";
-        lit += `<li class="${isToday}">${i}</li>`;
+        let style; 
+        
+        if (i === new Date().getDate() && year === new Date().getFullYear() && month === new Date().getMonth()) {
+            style = "active"
+        } else if (events.some(event => event.date == `${year}-${month + 1}-${i}`)) {
+            style = "event" 
+        } else {
+            style = ""
+        }
+
+        lit += `<li class="${style}">${i}</li>`;
     }
 
     for (let i = dayend; i < 6; i++) {
