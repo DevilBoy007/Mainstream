@@ -3,12 +3,8 @@ let year = date.getFullYear();
 let month = date.getMonth();
 
 const day = document.querySelector(".calendar-dates");
-
-const currdate = document
-    .querySelector(".calendar-current-date");
-
-const prenexIcons = document
-    .querySelectorAll(".calendar-navigation span");
+const currdate = document.querySelector(".calendar-current-date");
+const prenexIcons = document.querySelectorAll(".calendar-navigation span");
 
 const months = [
     "January",
