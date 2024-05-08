@@ -83,7 +83,7 @@ header .calendar-current-date {
 
 .calendar-body li {
     width: calc(100% / 7);
-    font-size: 1.07rem;
+    font-size: larger;
     color: #414141;
 }
 
