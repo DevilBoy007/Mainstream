@@ -177,6 +177,26 @@ header .calendar-current-date {
     padding: 0 10px;
 }
 
+@media (max-width: 880px) {
+    .title
+    {
+        font-size: 3em;
+    }
+    .content-wrapper 
+    {
+        flex-direction: column;
+    }
+    .calendar-container
+    {
+        width: 90vw;
+    }
+    .events-list
+    {
+        width: 80vw;
+        padding: 5vw;
+    }
+}
+
 /* fonts */
 .codystar-light {
     font-family: "Codystar", sans-serif;
