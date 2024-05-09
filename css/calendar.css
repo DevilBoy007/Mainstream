@@ -23,7 +23,7 @@ body {
 .calendar-container {
     background: #fff;
     width: 66vw;
-    height: 50vh;
+    height: 60vh;
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
     flex-shrink: 2;
@@ -175,6 +175,26 @@ header .calendar-current-date {
 .header li {
     display: inline;
     padding: 0 10px;
+}
+
+@media (max-width: 880px) {
+    .title
+    {
+        font-size: 3em;
+    }
+    .content-wrapper 
+    {
+        flex-direction: column;
+    }
+    .calendar-container
+    {
+        width: 90vw;
+    }
+    .events-list
+    {
+        width: 80vw;
+        padding: 5vw;
+    }
 }
 
 /* fonts */
