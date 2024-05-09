@@ -23,7 +23,7 @@ body {
 .calendar-container {
     background: #fff;
     width: 66vw;
-    height: 50vh;
+    height: 60vh;
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
     flex-shrink: 2;
