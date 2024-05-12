@@ -76,8 +76,8 @@ section {
     position: absolute;
     top: 20%;
     left: 5%;
-    /* font-family: "Agbalumo", cursive; */
-    font-family: "Kalam", cursive;
+    font-family: "Agbalumo", cursive;
+    /* font-family: "Kalam", cursive; */
     font-size: 5rem;
     color: #fff;
     transition-delay: 3s;
