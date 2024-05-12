@@ -47,6 +47,13 @@ li>a
     animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
 
+@media (max-width: 880px)
+{
+    .title {
+        font-size: 3em;
+    }
+}
+
 @keyframes neonGlow {
     0% {
         text-shadow: 0 0 10px rgba(255, 255, 255, .8),
