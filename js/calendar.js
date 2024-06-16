@@ -1,8 +1,16 @@
 // list of dictionaries that describe events on the calendar
 const events = [
-    {"date": "2024-5-3", "title": "The Garage", "description": "Mainstream is coming to rock the Garage!"},
-    {"date": "2024-5-10", "title": "Whiskey Row", "description": "Mainstream is coming to bring a slow, jazzy vibe to Whiskey Row!"},
-    {"date": "2024-5-13", "title": "The Tap", "description": "Get elevated with Mainstream at the Tap!"},
+    { "date": "2024-6-1", "title": "Quesos", "time": "6:30p","description": "Sidestream is coming to Quesos in Plainfield, IN!", "link": "https://cl.ison24.com/#/sn/newRv?id=3e5709f8-12b9-11ee-b5f3-02915a867417" },
+    { "date": "2024-6-8", "title": "Inspire Music Collective", "time": "6:30p","description": "Mainstream is partnering with Inspire Music Collective", "link": "https://www.inspiremusiccollective.org/events-1" },
+    { "date": "2024-6-12", "title": "Ale Emporium (Fishers)", "time": "8:30p","description": "The Sidestream duo will be entertaining dinnergoers all night long!", "link": "https://aleemporium.securetree.com/Locations/Fishers/" },
+    { "date": "2024-6-14", "title": "Ale Emporium (Fishers)", "time": "8:30p","description": "The Sidestream duo will be entertaining dinnergoers all night long!", "link": "https://aleemporium.securetree.com/Locations/Fishers/" },
+    { "date": "2024-6-15", "title": "Kilroy's Bar & Grill (Broad Ripple)", "time": "8:00p","description": "Sidestream will be playing on the patio outside. It's sure to be a hot night of music!", "link": "https://www.kilroysindy.com" },
+    { "date": "2024-6-22", "title": "The Social View", "time": "8:00p","description": "Mainstream is keeping the dinnertime vibes at The Social View.", "link": "https://www.kilroysindy.com" },
+    { "date": "2024-7-6", "title": "Live on the Lake @ Cicero", "time": "6:00p", "description": "Catch Mainstream in an all-exclusive laketop performance. The band will be set up on a pontoon in Cicero's Morse Reservoir, floating around spreading positivity through music.", "link": "#" },
+    { "date": "2024-7-7", "title": "The Garage", "time": "4:00p", "description": "Mainstream is coming to The Garage downtown to rock & roll with the people!", "link": "https://www.garageindy.com/entertainment" },
+    { "date": "2024-7-20", "title": "Britton Tavern", "time": "10:00p", "description": "Mainstream will be at the Britton Tavern to rock & roll all night!", "link": "http://thebrittontavern.co/calendar" },
+    { "date": "2024-8-3", "title": "Ale Emporium (Greenwood)", "time": "8:30p", "description": "Mainstream will be entertaining dinnergoers all night long!", "link": "http://thebrittontavern.co/calendar" },
+
 ]
 
 
