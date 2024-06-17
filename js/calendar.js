@@ -59,12 +59,13 @@ const manipulate = () => {
         if (i === new Date().getDate() && year === new Date().getFullYear() && month === new Date().getMonth()) {
             style = "active"
         } else if (events.some(event => event.date == `${year}-${month + 1}-${i}`)) {
-            style = "event" 
+            style = "event"
+            title = events.find(event => event.date == `${year}-${month + 1}-${i}`).description;
         } else {
             style = ""
         }
 
-        lit += `<li class="${style}">${i}</li>`;
+        lit += `<li class="${style}" title="${title}">${i}</li>`;
     }
 
     for (let i = dayend; i < 6; i++) {

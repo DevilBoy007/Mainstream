@@ -23,7 +23,7 @@ body {
 .calendar-container {
     background: #fff;
     width: 66vw;
-    height: 60vh;
+    height: fit-content;
     border-radius: 10px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
     flex-shrink: 2;
@@ -146,6 +146,8 @@ header .calendar-current-date {
     border-radius: 10px;
     padding: 2vw;
     margin: 2vw;
+    max-height: 50vh;
+    overflow-y: auto;
 }
 .events-list ul li
 {
