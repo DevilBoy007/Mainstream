@@ -54,18 +54,19 @@ const manipulate = () => {
 
     for (let i = 1; i <= lastdate; i++) {
 
-        let style; 
+        let style;
         
         if (i === new Date().getDate() && year === new Date().getFullYear() && month === new Date().getMonth()) {
             style = "active"
         } else if (events.some(event => event.date == `${year}-${month + 1}-${i}`)) {
             style = "event"
             title = events.find(event => event.date == `${year}-${month + 1}-${i}`).description;
+            url = events.find(event => event.date == `${year}-${month + 1}-${i}`).link;
         } else {
             style = ""
         }
 
-        lit += `<li class="${style}" title="${title}">${i}</li>`;
+        lit += `<li class="${style}" title="${title}" onclick="window.open('${url}')">${i}</li>`;
     }
 
     for (let i = dayend; i < 6; i++) {
