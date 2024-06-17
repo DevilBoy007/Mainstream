@@ -77,7 +77,22 @@ const manipulate = () => {
     day.innerHTML = lit;
 }
 
+function buildSidePanel() {
+    ulist = document.getElementById("ulist")
+    events.forEach(function (e) {
+        if (new Date(e.date) < new Date()) { return }
+        let elm = ""
+        let dateStr = new Date(e.date).toString()
+        elm += `<li onclick="window.open('${e.link}')">
+                    <span>${dateStr.substring(0,dateStr.indexOf("2024")-1)} - ${e.title}</span>
+                    <p>${e.time}</p>
+                </li><br>`
+        ulist.innerHTML += elm
+    })
+}
+
 manipulate();
+buildSidePanel();
 
 prenexIcons.forEach(icon => {
     icon.addEventListener("click", () => {
