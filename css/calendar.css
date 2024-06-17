@@ -149,6 +149,7 @@ header .calendar-current-date {
 
 .events-list
 {
+    max-width: 75vw;
     max-height: 50vh;
     overflow-y: auto;
 }
