@@ -161,6 +161,11 @@ header .calendar-current-date {
     max-height: 50vh;
     overflow-y: auto;
 }
+.events-list::-webkit-scrollbar
+{
+    display: none;
+}
+
 .events-list ul li
 {
     list-style: square;
