@@ -54,17 +54,19 @@ const manipulate = () => {
 
     for (let i = 1; i <= lastdate; i++) {
 
-        let style; 
+        let style;
         
         if (i === new Date().getDate() && year === new Date().getFullYear() && month === new Date().getMonth()) {
             style = "active"
         } else if (events.some(event => event.date == `${year}-${month + 1}-${i}`)) {
-            style = "event" 
+            style = "event"
+            title = events.find(event => event.date == `${year}-${month + 1}-${i}`).description;
+            url = events.find(event => event.date == `${year}-${month + 1}-${i}`).link;
         } else {
             style = ""
         }
 
-        lit += `<li class="${style}">${i}</li>`;
+        lit += `<li class="${style}" title="${title}" onclick="window.open('${url}')">${i}</li>`;
     }
 
     for (let i = dayend; i < 6; i++) {
@@ -75,7 +77,22 @@ const manipulate = () => {
     day.innerHTML = lit;
 }
 
+function buildSidePanel() {
+    ulist = document.getElementById("ulist")
+    events.forEach(function (e) {
+        if (new Date(e.date) < new Date()) { return }
+        let elm = ""
+        let dateStr = new Date(e.date).toString()
+        elm += `<li onclick="window.open('${e.link}')">
+                    <span>${dateStr.substring(0,dateStr.indexOf("2024")-1)} - ${e.title}</span>
+                    <p>${e.time}</p>
+                </li><br>`
+        ulist.innerHTML += elm
+    })
+}
+
 manipulate();
+buildSidePanel();
 
 prenexIcons.forEach(icon => {
     icon.addEventListener("click", () => {
