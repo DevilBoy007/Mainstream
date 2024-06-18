@@ -20,12 +20,13 @@ li>a
 
 .img_
 {
-    background:url('../img/sidestream.jpg') no-repeat center center;
+    background:url('../img/main.jpg') no-repeat center center;
     background-size: 100%;
     height: 75vh;
 }
 .section
 {
+    font-size: larger;
     max-width: 67vw;
     padding: 2vh;
     margin: 2vh auto;
