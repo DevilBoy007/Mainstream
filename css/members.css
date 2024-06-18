@@ -507,18 +507,30 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 1250px) {
+    .swiper
+    {
+        overflow-y: hidden;
+    }
     .title {
         top: 15%;
     }
 }
 
 @media (max-width: 1200px) {
+    .swiper
+    {
+        overflow-y: hidden;
+    }
     .hero {
         width: 420px;
     }
 }
 
 @media (max-width: 880px) {
+    .swiper
+    {
+        overflow-y: hidden;
+    }
     .hero {
         left: 15%;
         width: 400px;
@@ -539,6 +551,10 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 700px) {
+    .swiper
+    {
+        overflow-y: hidden;
+    }
     .box-container {
         position: absolute;
         top: 21%;
@@ -561,6 +577,10 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 580px) {
+    .swiper
+    {
+        overflow-y: hidden;
+    }
     .hero {
         left: 10%;
     }
@@ -575,6 +595,10 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 500px) {
+    .swiper
+    {
+        overflow-y: hidden;
+    }
     .gradient {
         width: 300px;
         height: 300px;
