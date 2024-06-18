@@ -81,7 +81,8 @@ function buildSidePanel() {
     events.forEach(function (e) {
         if (new Date(e.date) < new Date()) { return }
         let elm = ""
-        let dateStr = new Date(e.date).toString()
+        let splitDate = e.date.split("-")
+        let dateStr = new Date(splitDate[0], splitDate[1] - 1, splitDate[2]).toString()
         elm += `<li onclick="window.open('${e.link}')">
                     <span>${dateStr.substring(0,dateStr.indexOf("2024")-1)} - ${e.title}</span>
                     <p>${e.time}</p>
