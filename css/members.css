@@ -246,7 +246,7 @@ section {
 }
 
 .more-btn-icon {
-    font-size: 20px;
+    font-size: 2vh;
     color: #2e2e2f;
 }
 
@@ -395,7 +395,7 @@ body.prevent-background-scroll {
 }
 
 .close-icon {
-    font-size: 1.8rem;
+    font-size: 2vh;
     color: #efefef;
 }
 
@@ -515,12 +515,31 @@ body.prevent-background-scroll {
     .title {
         top: 15%;
     }
+    .box-container
+    {
+        width: max-content;
+        gap: 12vh
+    }
+    .box
+    {
+
+        width: 33vw;
+        font-size: xx-large;
+    }
+.close-btn
+{
+    font-size: larger;
+}
+    .hero
+    {
+        width: 1000px;
+    }
 }
 
 @media (max-width: 1200px) {
     body
     {
-        height: 90vh;
+        height: 85vh;
     }
     .swiper
     {
@@ -532,13 +551,20 @@ body.prevent-background-scroll {
     .box-container
     {
         width: max-content;
+        gap: 10vh
     }
     .box
     {
-        width: 33vw;
-        font-size: x-large;
-    }
 
+        width: 30vw;
+        font-size: xx-large;
+    }
+    .more-btn-icon {
+        font-size: 3vh;
+    }
+    .social-title {
+        font-size: xx-large;
+    }
     .hero {
         width: 900px;
     }
@@ -565,6 +591,10 @@ body.prevent-background-scroll {
 
     .icon-list-container {
         width: 70%;
+    }
+    .hero
+    {
+        width: 800px;
     }
 }
 
@@ -639,6 +669,7 @@ body.prevent-background-scroll {
 
     .box {
         display: none;
+        font-size: larger;
     }
 
     .box-mobile {
