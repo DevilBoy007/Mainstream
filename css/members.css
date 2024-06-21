@@ -522,8 +522,21 @@ body.prevent-background-scroll {
     {
         overflow-y: hidden;
     }
+    .sidebar-container {
+        width: 70%;
+    }
+    .box-container
+    {
+        width: max-content;
+    }
+    .box
+    {
+        width: 33vw;
+        font-size: x-large;
+    }
+
     .hero {
-        width: 420px;
+        width: 900px;
     }
 }
 
