@@ -179,6 +179,9 @@ header .calendar-current-date {
     color: #fff;
     padding: 1vh;
     text-align: center;
+    top: 0;
+    position: sticky;
+    z-index: 99
 }
 
 .title {
