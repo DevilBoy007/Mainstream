@@ -65,7 +65,7 @@ const manipulate = () => {
             style = ""
         }
 
-        lit += `<li class="${style}" title="${title}" onclick="window.open('${url}')">${i}</li>`;
+        lit += `<li class="${style}" title="${title}" onclick="window.open('${url?url:"#"}')">${i}</li>`;
     }
 
     for (let i = dayend; i < 6; i++) {
