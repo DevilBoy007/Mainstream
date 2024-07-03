@@ -63,9 +63,10 @@ const manipulate = () => {
             url = events.find(event => event.date == `${year}-${month + 1}-${i}`).link;
         } else {
             style = ""
+            url = "#"
         }
-
-        lit += `<li class="${style}" title="${title}" onclick="window.open('${url}')">${i}</li>`;
+        console.log("creating event", style, title, url)
+        lit += `<li class="${style}" title="${title}" onclick="window.open('${(url?url:"#")}')">${i}</li>`;
     }
 
     for (let i = dayend; i < 6; i++) {
