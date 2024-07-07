@@ -81,7 +81,7 @@ function buildSidePanel() {
     ulist = document.getElementById("ulist")
     events.forEach(function (e) {
         let splitDate = e.date.split("-")
-        if (new Date(splitDate[0],splitDate[1]-1,splitDate[2]) < new Date()) { return }
+        if (new Date(splitDate[0],splitDate[1]-1,splitDate[2]) < new Date() && splitDate[2] != new Date().getDate() ) { return }
         let elm = ""
         let dateStr = new Date(splitDate[0], splitDate[1] - 1, splitDate[2]).toString()
         elm += `<li onclick="window.open('${e.link}')">
