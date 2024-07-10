@@ -537,19 +537,12 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 1200px) {
-    body
-    {
-        height: 85vh;
-    }
-    .swiper
-    {
-        overflow-y: hidden;
-    }
     .sidebar-container {
         width: 70%;
     }
     .box-container
     {
+        padding-top: 10vh;
         width: max-content;
         gap: 10vh
     }
