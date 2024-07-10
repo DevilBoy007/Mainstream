@@ -84,6 +84,23 @@ section {
     color: #fff;
     transition-delay: 3s;
 }
+.contact-button {
+    cursor: pointer;
+    position: fixed;
+    top: 35%;
+    left: 5%;
+    padding: 1vh;
+    border-radius: 6px;
+    font-size: xx-large;
+    background: #82F8A5;
+    color: #000;
+    transition-delay: 4s;
+}
+.contact-button:hover {
+    background: #46D0F8;
+    color: #fff;
+}
+
 .logo {
     font-size: 6em;
     text-align: center;
@@ -179,10 +196,15 @@ section {
 }
 
 .header {
+    width: 100%;
     background-color: #000;
     color: #fff;
     padding: 1vh;
     text-align: center;
+}
+.header li
+{
+    font-size: xx-large;
 }
 
 @keyframes line-animation {
