@@ -205,7 +205,6 @@ section {
 .songs img {
     border-radius: 10px;
     margin: 8px 0 5px;
-    aspect-ratio: 5/3;
     object-fit: cover;
 }
 .songs img.fit-portrait
