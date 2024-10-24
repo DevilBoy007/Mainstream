@@ -10,6 +10,8 @@ const events = [
     { "date": "2024-7-7", "title": "The Garage", "time": "4:00p", "description": "Mainstream is coming to The Garage downtown to rock & roll with the people!", "link": "https://www.garageindy.com/entertainment" },
     { "date": "2024-7-20", "title": "Britton Tavern", "time": "10:00p", "description": "Mainstream will be at the Britton Tavern to rock & roll all night!", "link": "http://thebrittontavern.co/calendar" },
     { "date": "2024-8-3", "title": "Ale Emporium (Greenwood)", "time": "8:30p", "description": "Mainstream will be entertaining dinnergoers all night long!", "link": "https://aleemporium.securetree.com/Locations/Greenwood/" },
+    { "date": "2024-11-8", "title": "Ale Emporium (Greenwood)", "time": "8:30p", "description": "Mainstream will be entertaining dinnergoers all night long!", "link": "https://aleemporium.securetree.com/Locations/Greenwood/" },
+
 ]
 
 
