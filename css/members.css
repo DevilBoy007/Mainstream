@@ -84,6 +84,23 @@ section {
     color: #fff;
     transition-delay: 3s;
 }
+.contact-button {
+    cursor: pointer;
+    position: fixed;
+    top: 35%;
+    left: 5%;
+    padding: 1vh;
+    border-radius: 6px;
+    font-size: xx-large;
+    background: #82F8A5;
+    color: #000;
+    transition-delay: 4s;
+}
+.contact-button:hover {
+    background: #46D0F8;
+    color: #fff;
+}
+
 .logo {
     font-size: 6em;
     text-align: center;
@@ -99,6 +116,11 @@ section {
     background-image: linear-gradient(#4ddc9e, #5b37eb, #f1307e);
     animation: rotate 10s cubic-bezier(0.8, 0.2, 0.2, 0.8) alternate infinite;
     border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.turk 
+{
+    background-image: linear-gradient(#46D0F8, #F4CD8E, #F8A495, #82F8A5);
 }
 
 @keyframes rotate {
@@ -149,7 +171,7 @@ section {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: xx-large;
     margin-bottom: 10px;
 }
 
@@ -174,10 +196,15 @@ section {
 }
 
 .header {
+    width: 100%;
     background-color: #000;
     color: #fff;
     padding: 1vh;
     text-align: center;
+}
+.header li
+{
+    font-size: xx-large;
 }
 
 @keyframes line-animation {
@@ -192,7 +219,7 @@ section {
 
 .box p {
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: xx;
 }
 
 .songs,
@@ -205,7 +232,6 @@ section {
 .songs img {
     border-radius: 10px;
     margin: 8px 0 5px;
-    aspect-ratio: 5/3;
     object-fit: cover;
 }
 .songs img.fit-portrait
@@ -213,7 +239,7 @@ section {
     aspect-ratio: 4/3;
 }
 .songs h3 {
-    font-size: 1rem;
+    font-size: x-large;
 }
 
 .overview p {
@@ -375,7 +401,7 @@ body.prevent-background-scroll {
     display: flex;
     font-weight: 600;
     padding: 15px 20px 10px;
-    font-size: 1.2rem;
+    font-size: x-large;
 }
 
 .sidebar-header .close-btn {
@@ -446,7 +472,7 @@ body.prevent-background-scroll {
 .icon-list-body h1 {
     margin-bottom: 20px;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: x-large;
 }
 
 .icon-item {
@@ -471,7 +497,7 @@ body.prevent-background-scroll {
 }
 
 .social-title p {
-    font-size: 1.2rem;
+    font-size: x-large;
     font-weight: 300;
 }
 
@@ -537,19 +563,12 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 1200px) {
-    body
-    {
-        height: 85vh;
-    }
-    .swiper
-    {
-        overflow-y: hidden;
-    }
     .sidebar-container {
         width: 70%;
     }
     .box-container
     {
+        padding-top: 10vh;
         width: max-content;
         gap: 10vh
     }
@@ -557,13 +576,13 @@ body.prevent-background-scroll {
     {
 
         width: 30vw;
-        font-size: xx-large;
+        font-size: x-large;
     }
     .more-btn-icon {
         font-size: 3vh;
     }
     .social-title {
-        font-size: xx-large;
+        font-size: x-large;
     }
     .hero {
         width: 900px;
@@ -688,6 +707,7 @@ body.prevent-background-scroll {
         backdrop-filter: blur(70px);
         padding: 20px 20px 30px;
         z-index: 6;
+        font-size: x-large;
     }
 
     .sidebar-container {
