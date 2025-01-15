@@ -76,32 +76,30 @@ body
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.header
-{
-    background-color:#000;
+.header {
+    background-color: #000;
     color: #fff;
     padding: 1vh;
     text-align: center;
     top: 0;
     position: sticky;
-    z-index: 99;
+    z-index: 99
 }
-.header li {
-    display: -webkit-inline-box;
-    font-size: xx-large;
-    padding: 0 10px;
-}
+
 .header a {
     text-decoration: none;
     color: #fff;
 }
 
-.title
-{
-    font-family: 'Codystar',sans-serif;
+.header li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.title {
+    font-family: 'Codystar', sans-serif;
     font-size: 6em;
     text-align: center;
-    
 }
 
 .neon
