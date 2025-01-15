@@ -11,7 +11,7 @@ const events = [
     { "date": "2024-7-20", "title": "Britton Tavern", "time": "10:00p", "description": "Mainstream will be at the Britton Tavern to rock & roll all night!", "link": "http://thebrittontavern.co/calendar" },
     { "date": "2024-8-3", "title": "Ale Emporium (Greenwood)", "time": "8:30p", "description": "Mainstream will be entertaining dinnergoers all night long!", "link": "https://aleemporium.securetree.com/Locations/Greenwood/" },
     { "date": "2024-11-8", "title": "Ale Emporium (Greenwood)", "time": "8:30p", "description": "Mainstream will be entertaining dinnergoers all night long!", "link": "https://aleemporium.securetree.com/Locations/Greenwood/" },
-
+    { "date": "2025-1-16", "title": "The Garage Indy", "time": "6:00p", "description": "The Mainstream trio will be centerstage in the Garage 'til 8pm!", "link": "https://www.garageindy.com/entertainment" },
 ]
 
 
@@ -87,7 +87,7 @@ function buildSidePanel() {
         let elm = ""
         let dateStr = new Date(splitDate[0], splitDate[1] - 1, splitDate[2]).toString()
         elm += `<li onclick="window.open('${e.link}')">
-                    <span>${dateStr.substring(0,dateStr.indexOf("2024")-1)} - ${e.title}</span>
+                    <span>${dateStr.substring(0,dateStr.indexOf(("202"))-1)} - ${e.title}</span>
                     <p>${e.time}</p>
                 </li><br>`
         ulist.innerHTML += elm
