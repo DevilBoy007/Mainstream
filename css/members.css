@@ -74,7 +74,7 @@ section {
     pointer-events: none;
 }
 
-.title {
+.styled-name {
     position: absolute;
     top: 20%;
     left: 5%;
@@ -178,6 +178,25 @@ section {
     color: #fff;
     padding: 1vh;
     text-align: center;
+    top: 0;
+    position: sticky;
+    z-index: 99
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.title {
+    font-family: 'Codystar', sans-serif;
+    font-size: 6em;
+    text-align: center;
 }
 
 @keyframes line-animation {
@@ -258,7 +277,7 @@ section {
     transform: none;
 }
 
-.swiper-slide-active .title {
+.swiper-slide-active .styled-name {
     transition-delay: 0.6s;
 }
 
@@ -512,7 +531,7 @@ body.prevent-background-scroll {
     {
         overflow-y: hidden;
     }
-    .title {
+    .styled-name {
         top: 15%;
     }
     .box-container
@@ -571,6 +590,10 @@ body.prevent-background-scroll {
 }
 
 @media (max-width: 880px) {
+    .title 
+    {
+        font-size: 3em;
+    }
     .swiper
     {
         overflow-y: hidden;
@@ -580,7 +603,7 @@ body.prevent-background-scroll {
         width: 400px;
     }
 
-    .title {
+    .styled-name {
         top: 5%;
         font-size: 5rem;
     }
@@ -614,7 +637,7 @@ body.prevent-background-scroll {
         width: 150px;
     }
 
-    .title {
+    .styled-name {
         top: 5%;
         font-size: 5rem;
     }
@@ -656,7 +679,7 @@ body.prevent-background-scroll {
         width: 400px;
     }
 
-    .title {
+    .styled-name {
         top: 7%;
         font-size: 4rem;
     }
