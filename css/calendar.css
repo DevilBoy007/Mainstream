@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: purple;
 }
 
 
@@ -133,12 +134,47 @@ header .calendar-current-date {
     background: #6332c5;
 }
 
+.calendar-dates li.kenna::before {
+    background: #ffa600;
+}
+
 .calendar-dates li.event::before {
     background: #00bfff;
 }
 
 .calendar-dates li.event:hover::before {
     background: #000;
+}
+
+.calendar-key {
+    list-style: none;
+    padding: 10px;
+}
+
+.calendar-key li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.key-dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.key-dot.active {
+    background: #6332c5;
+}
+
+.key-dot.event {
+    background: #00bfff;
+}
+
+.key-dot.kenna {
+    background: #ffa600;
 }
 /* end calendar */
 
@@ -198,7 +234,6 @@ header .calendar-current-date {
     font-size: 6em;
     text-align: center;
 }
-
 
 @media (max-width: 880px) {
     .title
