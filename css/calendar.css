@@ -133,6 +133,10 @@ header .calendar-current-date {
     background: #6332c5;
 }
 
+.calendar-dates li.kenna::before {
+    background: #ffa600;
+}
+
 .calendar-dates li.event::before {
     background: #00bfff;
 }
@@ -198,7 +202,6 @@ header .calendar-current-date {
     font-size: 6em;
     text-align: center;
 }
-
 
 @media (max-width: 880px) {
     .title
