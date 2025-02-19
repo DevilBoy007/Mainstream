@@ -59,6 +59,24 @@ body
     height: 75vh;
 }
 
+.img_7 {
+    background: url('../img/img7.png') no-repeat center center;
+    background-size: 100%;
+    height: 75vh;
+}
+
+.img_8 {
+    background: url('../img/antony-mic.png') no-repeat center center;
+    background-size: 100%;
+    height: 75vh;
+}
+
+.img_9 {
+    background: url('../img/img9.png') no-repeat center center;
+    background-size: 100%;
+    height: 75vh;
+}
+
 .logo {
     text-decoration: none;
     text-align: center;
