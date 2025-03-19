@@ -212,6 +212,7 @@ header .calendar-current-date {
     list-style: square;
     padding: 1vw;
     border-bottom: 1px solid #000;
+    cursor: pointer;
 }
 
 /* header */
