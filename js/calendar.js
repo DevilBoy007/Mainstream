@@ -21,6 +21,10 @@ const events = [
     { "date": "2025-2-21", "title": "Del Friscos", "time": "6:00p", "description": "Kenna will be entertaining dinnergoes with smooth vibes & classic hits until 10p.", "link": "https://www.delfriscos.com/location/del-friscos-double-eagle-steakhouse-indianapolis-in/", "type": "kenna" },
     { "date": "2025-2-27", "title": "Del Friscos", "time": "6:00p", "description": "Kenna will be entertaining dinnergoes with smooth vibes & classic hits until 10p.", "link": "https://www.delfriscos.com/location/del-friscos-double-eagle-steakhouse-indianapolis-in/", "type": "kenna" },
     { "date": "2025-2-23", "title": "Battle of the Bands @ Britton Tavern", "time": "8:40p", "description": "Come see Mainstream perform in this epic Battle of the Bands; Performers go all-in to see who's got the best crowd response! Come make some noise!!", "link": "https://thebrittontavern.co/calendar", "type": "event"},
+    { "date": "2025-5-7", "title": "Melody Inn", "time": "TBD", "description": "Come see Mainstream entertain at The Mel! Make some noise!!", "link": "https://maps.app.goo.gl/hEqqajUXnrgtWTqV8", "type": "event" },
+    { "date": "2025-7-5", "title": "Live on the Lake @ Cicero", "time": "6:00p", "description": "Catch Mainstream in an all-exclusive laketop performance. The band will be set up on a pontoon in Cicero's Morse Reservoir, floating around spreading positivity through music.", "link": "https://maps.app.goo.gl/C6pjNHy59qyypTM29", "type": "event" },
+    { "date": "2025-8-14", "title": "Turntable", "time": "TBD", "description": "Mainstream is the main event at Turntable in Broad Ripple! Come have a great time!!", "link": "https://www.turntableindy.com", "type": "event" },
+    { "date": "2025-11-8", "title": "SRC", "time": "TBD", "description": "Mainstream is the entertainment at SRC! Expect some great music and a flashy performance!!", "link": "#", "type": "event" },
 ]
 
 
